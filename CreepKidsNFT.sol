@@ -20,13 +20,13 @@ contract CreepKidsNFT is ERC721, ERC721URIStorage, Ownable {
     
     string private metadataPath;  
 
-    constructor() public ERC721("Creep Kids", "KIDS") {
+    constructor() public ERC721("Creep Kids Genesis", "CRK") {
         //security
         Unlocked = false;
         PromoMintCount = 50;
 
         //nft.storage ipfs hash
-        metadataPath = "ipfs://QmWbNqmucZvBNGpyP724eCsoMFqdepnnjb6o7u5oLkDdcp";
+        metadataPath = "ipfs://QmcrVNTcC9DTGia2YbdrYchzt26te94DkEGikPNd3q1Ug3";
     }
     
     //Thank you to the DerpyBirbs & NOOBS 
